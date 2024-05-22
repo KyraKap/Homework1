@@ -12,5 +12,12 @@
     "title": "ST558 HW1",
     "section": "first bit of code",
     "text": "first bit of code\n\ny &lt;- density(iris$Sepal.Length)\n\n\nCreate an R code chunk to determine the class, type, and structure of the object y\nCreate an R code chunk that uses the plot function on y. Hide the R code in the final document by setting echo to false.\nInclude some markdown test between these code chunks explaining what you are doing with the R code."
+  },
+  {
+    "objectID": "Kapsaskis_HW1.html#created-connection-between-my-github-and-r-studio-and-pushed-my-commits.",
+    "href": "Kapsaskis_HW1.html#created-connection-between-my-github-and-r-studio-and-pushed-my-commits.",
+    "title": "ST558 HW1",
+    "section": "created connection between my github and R Studio and pushed my commits.",
+    "text": "created connection between my github and R Studio and pushed my commits."
   }
 ]

@@ -44,3 +44,4 @@ str(y)
 ```{r,echo=FALSE}
 plot(y, main = "Density Plot of Sepal Length")
 ```
+## created connection between my github and R Studio and pushed my commits. 
