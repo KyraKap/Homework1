@@ -8,7 +8,7 @@ editor: visual
 ## My first homework
 
 ## Data Science
-
+Being a data scientist...
 answer the questions here What do you think being a data scientist is about? ∗ What differences/similarities do you see between data scientists and statisticians? ∗ How do you view yourself in relation to these two areas?
 
 ## first bit of code
@@ -44,4 +44,5 @@ str(y)
 ```{r,echo=FALSE}
 plot(y, main = "Density Plot of Sepal Length")
 ```
-## created connection between my github and R Studio and pushed my commits. 
+
+## created connection between my github and R Studio and pushed my commits.
