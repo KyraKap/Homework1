@@ -140,26 +140,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="my-first-homework" class="level2">
-<h2 class="anchored" data-anchor-id="my-first-homework">My first homework</h2>
-</section>
+<section id="my-first-homework-in-st558" class="level1">
+<h1>My first homework in ST558!</h1>
 <section id="data-science" class="level2">
 <h2 class="anchored" data-anchor-id="data-science">Data Science</h2>
-<p>Being a data scientist… answer the questions here What do you think being a data scientist is about? ∗ What differences/similarities do you see between data scientists and statisticians? ∗ How do you view yourself in relation to these two areas?</p>
+<section id="what-do-you-think-being-a-data-scientist-is-about" class="level3">
+<h3 class="anchored" data-anchor-id="what-do-you-think-being-a-data-scientist-is-about">1. What do you think being a data scientist is about?</h3>
+<p>I think being a data scientist broadly ranges from knowing how to clean and wrangle the data to knowing what to do with the data/understanding it’s nature, and being able to clearly execute some analysis on the data and interpret those results.</p>
 </section>
-<section id="first-bit-of-code" class="level2">
-<h2 class="anchored" data-anchor-id="first-bit-of-code">first bit of code</h2>
+<section id="what-differencessimilarities-do-you-see-between-data-scientists-and-statisticians" class="level3">
+<h3 class="anchored" data-anchor-id="what-differencessimilarities-do-you-see-between-data-scientists-and-statisticians">2. What differences/similarities do you see between data scientists and statisticians?</h3>
+<p>To me, it seems like ‘data scientist’ is just more broad than ‘statistician’ because it involves much more than just running statistical models. This part of what we are doing right now: creating a presentable document to set up the context of an analysis and a plot to make it easier to understand, seems like something more in the realm of data scientist. The reading has been very helpful so far and I hope to learn more about the differences. Right now I see mostly overlap in the responsibilities which are to understand WHAT to do with data, execute it, and explain WHY to people in an understandable way.</p>
+</section>
+<section id="how-do-you-view-yourself-in-relation-to-these-two-areas" class="level3">
+<h3 class="anchored" data-anchor-id="how-do-you-view-yourself-in-relation-to-these-two-areas">3. How do you view yourself in relation to these two areas?</h3>
+<p>As a person with a Psychology background and no Math background, I see myself and my own personal skillset as leaning more towards the ‘data scientist’ side of things. My experience is mostly with identifying a social issue, reading current academic literature on that issue, and developing a way to investigate the issue. Yes, running a statistical model on collected data is a part of that (and the size and nature of the data I would deal with would typically fall more on the statistician side of things by being small relatively straightforward data) but the emphasis is more on expanding knowledge around an issue, which seems more related to a data scientist’s role of problem solving within a business.</p>
+</section>
+<section id="first-bit-of-code---here-i-am-creating-the-y-object.-it-is-a-density-function-of-the-variable-sepal-length-in-the-built-in-data-set-called-iris." class="level3">
+<h3 class="anchored" data-anchor-id="first-bit-of-code---here-i-am-creating-the-y-object.-it-is-a-density-function-of-the-variable-sepal-length-in-the-built-in-data-set-called-iris.">first bit of code - here, I am creating the y object. it is a density function of the variable Sepal Length in the “built-in” data set called Iris.</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="fu">density</span>(iris<span class="sc">$</span>Sepal.Length)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
 <li>Create an R code chunk to determine the class, type, and structure of the object y</li>
 <li>Create an R code chunk that uses the plot function on y. Hide the R code in the final document by setting echo to false.</li>
-<li>Include some markdown test between these code chunks explaining what you are doing with the R code.</li>
+<li>Include some markdown text between these code chunks explaining what you are doing with the R code.</li>
 </ul>
 </section>
-<section id="finding-the-class" class="level1">
-<h1>finding the class</h1>
+<section id="finding-the-class-of-y-using-the-class-function-on-the-y-object-that-we-just-made." class="level3">
+<h3 class="anchored" data-anchor-id="finding-the-class-of-y-using-the-class-function-on-the-y-object-that-we-just-made.">finding the class of y using the <code>class()</code> function on the y object that we just made.</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(y)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -167,8 +176,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </section>
-<section id="finding-the-type" class="level1">
-<h1>finding the type</h1>
+<section id="finding-the-type-using-the-typeof-function" class="level3">
+<h3 class="anchored" data-anchor-id="finding-the-type-using-the-typeof-function">finding the type using the <code>typeof()</code> function</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">typeof</span>(y)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -176,8 +185,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </section>
-<section id="finding-the-structure" class="level1">
-<h1>finding the structure</h1>
+<section id="finding-the-structure-using-the-str-function." class="level3">
+<h3 class="anchored" data-anchor-id="finding-the-structure-using-the-str-function.">finding the structure using the <code>str()</code> function.</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(y)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -194,8 +203,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </section>
-<section id="plotting-the-y-variable" class="level1">
-<h1>plotting the y variable</h1>
+<section id="plotting-the-y-object-using-the-plot-function.-i-also-updated-the-title-of-the-density-plot." class="level3">
+<h3 class="anchored" data-anchor-id="plotting-the-y-object-using-the-plot-function.-i-also-updated-the-title-of-the-density-plot.">plotting the y object using the <code>plot()</code> function. I also updated the title of the density plot.</h3>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -205,8 +214,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<section id="created-connection-between-my-github-and-r-studio-and-pushed-my-commits." class="level2">
-<h2 class="anchored" data-anchor-id="created-connection-between-my-github-and-r-studio-and-pushed-my-commits.">created connection between my github and R Studio and pushed my commits.</h2>
+</section>
+</section>
+<section id="now-i-am-going-to-render-my-finished-work-and-push-the-final-changes-to-github" class="level2">
+<h2 class="anchored" data-anchor-id="now-i-am-going-to-render-my-finished-work-and-push-the-final-changes-to-github">Now I am going to render my finished work and push the final changes to github!</h2>
 
 
 </section>

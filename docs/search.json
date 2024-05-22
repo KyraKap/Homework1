@@ -1,23 +1,16 @@
 [
   {
+    "objectID": "Kapsaskis_HW1.html",
+    "href": "Kapsaskis_HW1.html",
+    "title": "ST558 HW1",
+    "section": "",
+    "text": "I think being a data scientist broadly ranges from knowing how to clean and wrangle the data to knowing what to do with the data/understanding it’s nature, and being able to clearly execute some analysis on the data and interpret those results.\n\n\n\nTo me, it seems like ‘data scientist’ is just more broad than ‘statistician’ because it involves much more than just running statistical models. This part of what we are doing right now: creating a presentable document to set up the context of an analysis and a plot to make it easier to understand, seems like something more in the realm of data scientist. The reading has been very helpful so far and I hope to learn more about the differences. Right now I see mostly overlap in the responsibilities which are to understand WHAT to do with data, execute it, and explain WHY to people in an understandable way.\n\n\n\nAs a person with a Psychology background and no Math background, I see myself and my own personal skillset as leaning more towards the ‘data scientist’ side of things. My experience is mostly with identifying a social issue, reading current academic literature on that issue, and developing a way to investigate the issue. Yes, running a statistical model on collected data is a part of that (and the size and nature of the data I would deal with would typically fall more on the statistician side of things by being small relatively straightforward data) but the emphasis is more on expanding knowledge around an issue, which seems more related to a data scientist’s role of problem solving within a business.\n\n\n\n\ny &lt;- density(iris$Sepal.Length)\n\n\nCreate an R code chunk to determine the class, type, and structure of the object y\nCreate an R code chunk that uses the plot function on y. Hide the R code in the final document by setting echo to false.\nInclude some markdown text between these code chunks explaining what you are doing with the R code.\n\n\n\n\n\nclass(y)\n\n[1] \"density\"\n\n\n\n\n\n\ntypeof(y)\n\n[1] \"list\"\n\n\n\n\n\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] 3.48 3.49 3.5 3.51 3.52 ...\n $ y         : num [1:512] 0.00023 0.000259 0.000293 0.000329 0.00037 ...\n $ bw        : num 0.274\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Sepal.Length)\n $ data.name : chr \"iris$Sepal.Length\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\""
+  },
+  {
     "objectID": "Kapsaskis_HW1.html#data-science",
     "href": "Kapsaskis_HW1.html#data-science",
     "title": "ST558 HW1",
-    "section": "Data Science",
-    "text": "Data Science\nBeing a data scientist… answer the questions here What do you think being a data scientist is about? ∗ What differences/similarities do you see between data scientists and statisticians? ∗ How do you view yourself in relation to these two areas?"
-  },
-  {
-    "objectID": "Kapsaskis_HW1.html#first-bit-of-code",
-    "href": "Kapsaskis_HW1.html#first-bit-of-code",
-    "title": "ST558 HW1",
-    "section": "first bit of code",
-    "text": "first bit of code\n\ny &lt;- density(iris$Sepal.Length)\n\n\nCreate an R code chunk to determine the class, type, and structure of the object y\nCreate an R code chunk that uses the plot function on y. Hide the R code in the final document by setting echo to false.\nInclude some markdown test between these code chunks explaining what you are doing with the R code."
-  },
-  {
-    "objectID": "Kapsaskis_HW1.html#created-connection-between-my-github-and-r-studio-and-pushed-my-commits.",
-    "href": "Kapsaskis_HW1.html#created-connection-between-my-github-and-r-studio-and-pushed-my-commits.",
-    "title": "ST558 HW1",
-    "section": "created connection between my github and R Studio and pushed my commits.",
-    "text": "created connection between my github and R Studio and pushed my commits."
+    "section": "",
+    "text": "I think being a data scientist broadly ranges from knowing how to clean and wrangle the data to knowing what to do with the data/understanding it’s nature, and being able to clearly execute some analysis on the data and interpret those results.\n\n\n\nTo me, it seems like ‘data scientist’ is just more broad than ‘statistician’ because it involves much more than just running statistical models. This part of what we are doing right now: creating a presentable document to set up the context of an analysis and a plot to make it easier to understand, seems like something more in the realm of data scientist. The reading has been very helpful so far and I hope to learn more about the differences. Right now I see mostly overlap in the responsibilities which are to understand WHAT to do with data, execute it, and explain WHY to people in an understandable way.\n\n\n\nAs a person with a Psychology background and no Math background, I see myself and my own personal skillset as leaning more towards the ‘data scientist’ side of things. My experience is mostly with identifying a social issue, reading current academic literature on that issue, and developing a way to investigate the issue. Yes, running a statistical model on collected data is a part of that (and the size and nature of the data I would deal with would typically fall more on the statistician side of things by being small relatively straightforward data) but the emphasis is more on expanding knowledge around an issue, which seems more related to a data scientist’s role of problem solving within a business.\n\n\n\n\ny &lt;- density(iris$Sepal.Length)\n\n\nCreate an R code chunk to determine the class, type, and structure of the object y\nCreate an R code chunk that uses the plot function on y. Hide the R code in the final document by setting echo to false.\nInclude some markdown text between these code chunks explaining what you are doing with the R code.\n\n\n\n\n\nclass(y)\n\n[1] \"density\"\n\n\n\n\n\n\ntypeof(y)\n\n[1] \"list\"\n\n\n\n\n\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] 3.48 3.49 3.5 3.51 3.52 ...\n $ y         : num [1:512] 0.00023 0.000259 0.000293 0.000329 0.00037 ...\n $ bw        : num 0.274\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Sepal.Length)\n $ data.name : chr \"iris$Sepal.Length\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\""
   }
 ]

@@ -5,13 +5,23 @@ format: html
 editor: visual
 ---
 
-## My first homework
+# My first homework in ST558!
 
 ## Data Science
-Being a data scientist...
-answer the questions here What do you think being a data scientist is about? ∗ What differences/similarities do you see between data scientists and statisticians? ∗ How do you view yourself in relation to these two areas?
 
-## first bit of code
+### 1. What do you think being a data scientist is about?
+
+I think being a data scientist broadly ranges from knowing how to clean and wrangle the data to knowing what to do with the data/understanding it's nature, and being able to clearly execute some analysis on the data and interpret those results.
+
+### 2. What differences/similarities do you see between data scientists and statisticians?
+
+To me, it seems like 'data scientist' is just more broad than 'statistician' because it involves much more than just running statistical models. This part of what we are doing right now: creating a presentable document to set up the context of an analysis and a plot to make it easier to understand, seems like something more in the realm of data scientist. The reading has been very helpful so far and I hope to learn more about the differences. Right now I see mostly overlap in the responsibilities which are to understand WHAT to do with data, execute it, and explain WHY to people in an understandable way.
+
+### 3. How do you view yourself in relation to these two areas?
+
+As a person with a Psychology background and no Math background, I see myself and my own personal skillset as leaning more towards the 'data scientist' side of things. My experience is mostly with identifying a social issue, reading current academic literature on that issue, and developing a way to investigate the issue. Yes, running a statistical model on collected data is a part of that (and the size and nature of the data I would deal with would typically fall more on the statistician side of things by being small relatively straightforward data) but the emphasis is more on expanding knowledge around an issue, which seems more related to a data scientist's role of problem solving within a business.
+
+### first bit of code - here, I am creating the y object. it is a density function of the variable Sepal Length in the "built-in" data set called Iris.
 
 ```{r}
 y <- density(iris$Sepal.Length)
@@ -19,30 +29,30 @@ y <- density(iris$Sepal.Length)
 
 -   Create an R code chunk to determine the class, type, and structure of the object y
 -   Create an R code chunk that uses the plot function on y. Hide the R code in the final document by setting echo to false.
--   Include some markdown test between these code chunks explaining what you are doing with the R code.
+-   Include some markdown text between these code chunks explaining what you are doing with the R code.
 
-# finding the class
+### finding the class of y using the `class()` function on the y object that we just made.
 
 ```{r}
 class(y)
 ```
 
-# finding the type
+### finding the type using the `typeof()` function
 
 ```{r}
 typeof(y)
 ```
 
-# finding the structure
+### finding the structure using the `str()` function.
 
 ```{r}
 str(y)
 ```
 
-# plotting the y variable
+### plotting the y object using the `plot()` function. I also updated the title of the density plot.
 
 ```{r,echo=FALSE}
 plot(y, main = "Density Plot of Sepal Length")
 ```
 
-## created connection between my github and R Studio and pushed my commits.
+## Now I am going to render my finished work and push the final changes to github!
