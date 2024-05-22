@@ -1,0 +1,46 @@
+---
+title: "ST558 HW1"
+author: "Kyra Kapsaskis"
+format: html
+editor: visual
+---
+
+## My first homework
+
+## Data Science
+
+answer the questions here What do you think being a data scientist is about? ∗ What differences/similarities do you see between data scientists and statisticians? ∗ How do you view yourself in relation to these two areas?
+
+## first bit of code
+
+```{r}
+y <- density(iris$Sepal.Length)
+```
+
+-   Create an R code chunk to determine the class, type, and structure of the object y
+-   Create an R code chunk that uses the plot function on y. Hide the R code in the final document by setting echo to false.
+-   Include some markdown test between these code chunks explaining what you are doing with the R code.
+
+# finding the class
+
+```{r}
+class(y)
+```
+
+# finding the type
+
+```{r}
+typeof(y)
+```
+
+# finding the structure
+
+```{r}
+str(y)
+```
+
+# plotting the y variable
+
+```{r,echo=FALSE}
+plot(y, main = "Density Plot of Sepal Length")
+```
